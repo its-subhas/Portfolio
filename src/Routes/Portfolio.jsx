@@ -4,6 +4,7 @@ import { Outlet } from "react-router-dom";
 import Footer from "../Components/Footer";
 import DataContextProvider from "../Store/DataContextProvider";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const Portfolio = () => {
   return (
@@ -15,6 +16,7 @@ const Portfolio = () => {
         <Footer />
       </div>
       <Analytics />
+      <SpeedInsights />
     </DataContextProvider>
   );
 };
