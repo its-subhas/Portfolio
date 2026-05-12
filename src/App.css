@@ -193,7 +193,6 @@ img {
 
 .footer {
   text-align: center;
-  /* padding: 15px; */
   padding: 20vh 15px 15px 15px;
   background: black;
   color: white;
@@ -316,7 +315,6 @@ img {
   .right-left-div {
     flex-direction: column;
     gap: 15px;
-    padding: 15px 6px;
     text-align: center;
   }
 
@@ -379,7 +377,6 @@ img {
 
   .footer {
     padding: 20vh 4px 8px 4px;
-    font-size: 9px;
     word-break: break-word;
   }
 }
@@ -423,7 +420,6 @@ img {
   .right-left-div {
     flex-direction: column;
     gap: 10px;
-    padding: 10px 2px;
     width: 100%;
   }
 
@@ -489,7 +485,93 @@ img {
 
   .footer {
     padding: 20vh 2px 6px 2px;
-    font-size: 7px;
     word-break: break-word;
+  }
+}
+
+@media (max-width: 100px) {
+  .navpannel a {
+    font-size: 5px;
+  }
+
+  .leftDiv h1 {
+    font-size: 7px;
+    line-height: 1.2;
+  }
+
+  .leftDiv h4 {
+    font-size: 4px;
+  }
+
+  .leftDiv p {
+    font-size: 3.5px;
+    line-height: 1.2;
+  }
+
+  .resumeBtn {
+    padding: 3px 1.5px;
+    font-size: 4px;
+    gap: 2px;
+  }
+}
+
+/* MAIN PADDING */
+
+@media (max-width: 769px) {
+  .content {
+    padding: 40px 15px;
+  }
+}
+@media (max-width: 426px) {
+  .content {
+    padding: 30px 10px;
+  }
+}
+@media (max-width: 200px) {
+  .content {
+    padding: 20px 5px;
+  }
+}
+@media (max-width: 131px) {
+  .content {
+    padding: 10px 2px;
+  }
+}
+
+/* FOOTER FONT SIZE */
+
+@media (max-width: 460px) {
+  .footer {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  .footer {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 226px) {
+  .footer {
+    font-size: 6px;
+  }
+}
+
+@media (max-width: 171px) {
+  .footer {
+    font-size: 4px;
+  }
+}
+
+@media (max-width: 115px) {
+  .footer {
+    font-size: 2px;
+  }
+}
+
+@media (max-width: 61px) {
+  .footer {
+    font-size: 1.5px;
   }
 }
