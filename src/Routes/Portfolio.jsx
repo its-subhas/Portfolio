@@ -3,6 +3,7 @@ import ScrollToTop from "../Components/ScrollToTop";
 import { Outlet } from "react-router-dom";
 import Footer from "../Components/Footer";
 import DataContextProvider from "../Store/DataContextProvider";
+import { Analytics } from "@vercel/analytics/react";
 
 const Portfolio = () => {
   return (
@@ -13,6 +14,7 @@ const Portfolio = () => {
         <Outlet />
         <Footer />
       </div>
+      <Analytics />
     </DataContextProvider>
   );
 };
