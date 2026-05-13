@@ -12,7 +12,7 @@ body {
 
 /* MAIN CONTAINER */
 .mainContainer {
-  min-height: 100dvh;
+  min-height: 100svh;
   display: flex;
   flex-direction: column;
 }
@@ -91,7 +91,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 60px 20px;
-  min-height: calc(100svh - 60px);
+  min-height: calc(100dvh - 60px);
 }
 
 /* MAIN SECTION */
