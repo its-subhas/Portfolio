@@ -11,6 +11,7 @@ import IAS from "../assets/IAS.png";
 import Grade10 from "../assets/10 Grade.png";
 import Grade12 from "../assets/12 Grade.png";
 import Graduation from "../assets/Graduation.png";
+import Todo from "../assets/Todo.png";
 
 const DataContextProvider = ({ children }) => {
   /* NAVBAR DATA */
@@ -26,6 +27,12 @@ const DataContextProvider = ({ children }) => {
       name: "Portfolio",
       desc: "A personal portfolio showcasing my skills, projects and experience as a Full Stack Developer.",
       link: "/",
+    },
+     {
+      img: Todo,
+      name: "Todo",
+      desc: "A task management web application to add, update and delete tasks.",
+      link: "https://todo-cyan-nine-56.vercel.app/",
     },
     {
       img: RPS,
