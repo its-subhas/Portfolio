@@ -32,7 +32,7 @@ const DataContextProvider = ({ children }) => {
      {
       img: Todo,
       name: "Todo",
-      desc: "A task management web application to add, update and delete tasks.",
+      desc: "A task management web application to add, update and delete tasks. It helps organize daily work.",
       link: "https://todo-cyan-nine-56.vercel.app/",
     },
     {
