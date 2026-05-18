@@ -12,6 +12,7 @@ import Grade10 from "../assets/10 Grade.png";
 import Grade12 from "../assets/12 Grade.png";
 import Graduation from "../assets/Graduation.png";
 import Todo from "../assets/Todo.png";
+import TTT from "../assets/TTT.png";
 
 const DataContextProvider = ({ children }) => {
   /* NAVBAR DATA */
@@ -39,6 +40,12 @@ const DataContextProvider = ({ children }) => {
       name: "Rock Paper Scissor",
       desc: "A Rock Paper Scissor game built using JavaScript that allows users to play against the computer.",
       link: "https://its-subhas.github.io/RPS-Game/",
+    },
+    {
+      img: TTT,
+      name: "Tic Tac Toe",
+      desc: "A simple Tic Tac Toe game built using React and Context API. Two players play X and O on a 3×3 grid.",
+      link: "https://tic-tac-toe-red-beta.vercel.app/",
     },
   ];
 
